@@ -1,0 +1,8 @@
+@CHARSET "ISO-8859-1";
+
+.btnStyle{
+	background-color: blue;
+	color:white;
+	font-weight: bold;
+	font-size: 14px;
+}

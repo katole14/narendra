@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+
+<style type="text/css">
+ul{
+
+	text-decoration: none;
+	margin: 0px;
+	list-style: none;
+}
+
+#mnuItm ul li{
+
+	text-decoration: none;
+	margin: 0px;
+}
+
+#mnuItm  li{
+	width: 120px;
+	background-color: blue;
+	color: white;
+	font-size: 14px;
+	float: left;
+}
+
+a:LINK{
+	text-decoration: none;
+		color: white;
+	font-weight: bold;
+	padding: 10px 10px 10px 10px;
+}
+
+a:VISITED{
+	text-decoration: none;
+	
+	color: white;
+}
+
+#mainCtn{
+	width: 700px;
+	border: 1px solid blue;
+	height: 500px;
+	margin-left: 50px;
+}
+
+</style>
+
+</head>
+
+
+
+<body>
+
+<div id="mainMenu" style="width: 700px; margin-left: 50px; background-color: blue;">
+	<div id="menuItem" style="width: 700px;  padding:30px 10px 20px 10px;">
+		<ul id="mnuItm">
+			<li><a href="pages/employee.html" target="mainFrame">Create</a></li>
+			<li><a href="#" target="mainFrame"> Update</a></li>
+			<li><a href="ListAllEmpServlet" target="mainFrame">ListAll</a></li>
+			<li><a href="#" target="mainFrame">Search</a></li>
+				<li><a href="#">LogOut</a></li>
+		
+		</ul>
+	
+	</div>
+</div>
+<div id="mainCtn">
+<!-- <h1>Employee Details</h1> -->
+
+<iframe src="pages/success.html" style="width: 700px; border: 1px solid blue; height: 500px;" name="mainFrame">
+
+</iframe>
+
+</div>
+
+
+</body>
+</html>

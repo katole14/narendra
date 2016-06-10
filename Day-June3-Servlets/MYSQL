@@ -1,0 +1,8 @@
+create table userLogin(userName varchar(50) not null primary key,
+userPassword varchar(50) not null
+);
+
+insert into userlogin values('tom','tom123');
+insert into userlogin values('jerry','jerry123');
+insert into userlogin values('sam','sam');
+insert into userlogin values('annie','annie456');
